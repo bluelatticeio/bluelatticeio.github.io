@@ -1,4 +1,4 @@
 .DS_Store
 v2/node_modules/
 node_modules/
-
+.idea/

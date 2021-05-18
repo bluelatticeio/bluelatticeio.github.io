@@ -6,7 +6,7 @@ cd v2
 npm install
 ``` 
 
-#  run locally
+#  run locally with hot reload
 - npm start
 
 
