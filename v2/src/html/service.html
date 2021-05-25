@@ -1,472 +1,530 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    {{> partials/head title="BlueLattice.io"}}
-  </head>
-  <body>
+<head>
+  {{> partials/head title="BlueLattice.io"}}
+</head>
+<body>
 
-    <!-- MODALS -->
-    {{> partials/modals}}
+<!-- MODALS -->
+{{> partials/modals}}
 
-    <!-- NAVBAR -->
-    {{> partials/navbar classList="navbar-light" container="container" button="primary"}}
+<!-- NAVBAR -->
+{{> partials/navbar classList="navbar-light bg-white" container="container-fluid" button="primary"}}
 
-    <!-- WELCOME -->
-    <section class="position-relative pt-12 pt-md-14 mt-n11">
+<!-- WELCOME -->
+<section class="pt-8 pb-11 pt-md-9 pb-md-12 py-lg-14 bg-light bg-between" style="background-image: url(assets/img/illustrations/illustration-6-cropped.png), url(assets/img/illustrations/illustration-4-cropped.png);">
+  <div class="container">
 
-      <!-- Shape -->
-      <div class="shape shape-fluid-x shape-blur-2 text-light">
-        {{> blurs/blur-2}}
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-7 text-center" data-aos="fade-up">
+
+        <!-- Image (mobile) -->
+        <img src="assets/img/illustrations/illustration-8.png" alt="..." class="img-fluid mb-6 d-lg-none">
+
+        <!-- Heading -->
+        <!-- Heading -->
+        <h1 class="display-1 mb-0 fw-bold">
+          We <span class="text-primary">Design & Build</span> Products For All.
+        </h1>
+
+
+        <!-- Text -->
+        <p class="fs-lg text-muted mb-6 mb-md-8">
+          Forward thinking businesses use our cloud backup service to ensure data reliability and safety.
+        </p>
+
+        <!-- Button -->
+        <a class="btn btn-primary btn-rounded-circle shadow" data-scroll='{"offset": 0}' href="#sectionTwo">
+          <i class="fe fe-arrow-down"></i>
+        </a>
+
       </div>
-
-      <!-- Content -->
-      <div class="container">
-        <div class="row align-items-center text-center text-md-start">
-          <div class="col-12 col-md-6">
-
-            <!-- Image -->
-            <img src="assets/img/illustrations/illustration-4.png" alt="..." class="img-fluid mw-130 float-end mb-6 mb-md-0" data-aos="fade-right">
-
-          </div>
-          <div class="col-12 col-md-6">
-
-            <!-- Heading -->
-            <h1 class="display-1 fw-bold">
-              <div data-aos="fade-left">Work Smart.</div>
-              <div data-aos="fade-left" data-aos-delay="100">Not Hard.</div>
-            </h1>
-
-            <!-- Text -->
-            <p class="fs-lg text-muted mb-0" data-aos="fade-left" data-aos-delay="200">
-              Productivity tools can either help you or get in the way. Landkit aims to remove all barriers between you and just getting stuff done. Give us a try and we promise you won't regret it.
-            </p>
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-
-    </section>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
 
 
 
-    <!-- ABOUT -->
-    <section class="py-8 py-md-11 bg-gray-200">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-7 text-center">
+<!-- SOLUTION -->
+<section class="py-8 pt-md-11 pb-md-12 bg-dark">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8 text-center">
 
-            <!-- Heading -->
-            <h2 class="fw-bold">
-              Built for teams of all kinds.
-            </h2>
+        <!-- Preheading -->
+        <h6 class="text-uppercase text-success fw-bold">
+          All in one solution
+        </h6>
 
-            <!-- Text -->
-            <p class="fs-lg text-muted mb-7 mb-md-9">
-              No matter what you're working on, who you're with, or how many of you there are, Landkit can help.
-            </p>
+        <!-- Heading -->
+        <h1 class="fw-bold text-white">
+          A one stop shop for storage.
+        </h1>
 
-          </div>
-        </div> <!-- / .row -->
-        <div class="row gx-4">
-          <div class="col-12 col-lg-6 d-lg-flex mb-4">
+        <!-- Text -->
+        <p class="fs-lg text-gray-500 mb-7 mb-md-9">
+          We are a complete solution for all your storage needs.
+        </p>
 
-            <!-- Card -->
-            <div class="card shadow-light-lg overflow-hidden" data-aos="fade-up">
-              <div class="row">
-                <div class="col-md-4 position-relative">
-
-                  <!-- Image -->
-                  <img src="assets/img/illustrations/illustration-8.png" class="h-75 position-absolute right-0 mt-7 me-n4" alt="...">
-
-                </div>
-                <div class="col-md-8">
-
-                  <!-- Body -->
-                  <div class="card-body py-7 py-md-9 text-center">
-
-                    <!-- Heading -->
-                    <h4 class="fw-bold">
-                      Unlimited Team Size
-                    </h4>
-
-                    <!-- Text -->
-                    <p class="text-muted mb-0">
-                      Landkit works well for a scrappy team of 3 or scales to the enterprise level needs of Forture 500 companies.
-                    </p>
-
-                  </div>
-
-                </div>
-              </div> <!-- / .row -->
-            </div>
-
-          </div>
-          <div class="col-12 col-lg-6 d-lg-flex mb-4">
-
-            <!-- Card -->
-            <div class="card shadow-light-lg overflow-hidden text-center" data-aos="fade-up">
-              <div class="row">
-                <div class="col-md-8">
-
-                  <!-- Body -->
-                  <div class="card-body py-7 py-md-9">
-
-                    <!-- Heading -->
-                    <h4 class="fw-bold">
-                      Emoji Responses
-                    </h4>
-
-                    <!-- Text -->
-                    <p class="text-muted mb-0">
-                      Instead of bombarding team members with huge messages, simply reply with an emoji to express your reply.
-                    </p>
-
-                  </div>
-
-                </div>
-                <div class="col-md-4">
-
-                  <!-- Image -->
-                  <img src="assets/img/illustrations/illustration-6.png" class="h-75 position-absolute left-0 mt-7" alt="...">
-
-                </div>
-              </div> <!-- / .row -->
-            </div>
-
-          </div>
-        </div> <!-- / .row -->
-        <div class="row">
-          <div class="col-12">
-
-            <!-- Card -->
-            <div class="card shadow-light-lg overflow-hidden text-center text-lg-start" data-aos="fade-up">
-              <div class="row">
-                <div class="col-md-4 position-relative">
-
-                  <!-- Image -->
-                  <img src="assets/img/illustrations/illustration-2.png" class="h-75 position-absolute right-0 mt-6" alt="...">
-
-                </div>
-                <div class="col-md-8">
-
-                  <!-- Body -->
-                  <div class="card-body py-7 py-md-9">
-
-                    <!-- Heading -->
-                    <h4 class="fw-bold">
-                      Building a community.
-                    </h4>
-
-                    <!-- Text -->
-                    <p class="text-muted mb-0">
-                      Landkit is focused on helping foster a community. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis diam tempus tortor egestas blandit. Aliquam erat volutpat. Phasellus rhoncus pretium molestie. Nulla facilisi. Etiam sollicitudin lectus ac nisi tincidunt porttitor. Phasellus eros metus, gravida eu mi ac, gravida convallis ipsum.
-                    </p>
-
-                  </div>
-
-                </div>
-              </div> <!-- / .row -->
-            </div>
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
-
-
-    <!-- SHAPE -->
-    <div class="position-relative">
-      <div class="shape shape-bottom shape-fluid-x text-dark">
-        {{> curves/curve-1}}
       </div>
-    </div>
+    </div> <!-- / .row -->
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
 
-    <!-- SOLUTION -->
-    <section class="py-8 pt-md-11 pb-md-12 bg-dark">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-8 text-center">
+        <!-- Heading -->
+        <h4 class="fw-bold text-white mb-5">
+          Integrations
+        </h4>
 
-            <!-- Preheading -->
-            <h6 class="text-uppercase text-success fw-bold">
-              All in one solution
-            </h6>
+        <!-- List -->
+        <div class="d-flex">
 
-            <!-- Heading -->
-            <h1 class="fw-bold text-white">
-              A one stop shop for storage.
-            </h1>
-
-            <!-- Text -->
-            <p class="fs-lg text-gray-500 mb-7 mb-md-9">
-              We are a complete solution for all your storage needs.
-            </p>
-
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
           </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            Basic CRUD API
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            3rd party snippets
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            Slack notifications
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300 mb-6 mb-lg-0">
+            Zapier hooks
+          </p>
+
         </div> <!-- / .row -->
+
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+
+        <!-- Heading -->
+        <h4 class="fw-bold text-white mb-5">
+          Storage
+        </h4>
+
+        <!-- List -->
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            SQL and SQLite
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            File system access
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            Infinite storage
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300 mb-6 mb-lg-0">
+            Mongo and NoSQL
+          </p>
+
+        </div> <!-- / .row -->
+
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+
+        <!-- Heading -->
+        <h4 class="fw-bold text-white mb-5">
+          Integrations
+        </h4>
+
+        <!-- List -->
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            Basic CRUD API
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            3rd party snippets
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            Slack notifications
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300 mb-6 mb-lg-0">
+            Zapier hooks
+          </p>
+
+        </div> <!-- / .row -->
+
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+
+        <!-- Heading -->
+        <h4 class="fw-bold text-white mb-5">
+          Storage
+        </h4>
+
+        <!-- List -->
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            SQL and SQLite
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            File system access
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300">
+            Infinite storage
+          </p>
+
+        </div>
+        <div class="d-flex">
+
+          <!-- Badge -->
+          <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+            <i class="fe fe-check"></i>
+          </div>
+
+          <!-- Text -->
+          <p class="text-gray-300 mb-0">
+            Mongo and NoSQL
+          </p>
+
+        </div> <!-- / .row -->
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+<!-- SHAPE -->
+<div class="position-relative">
+  <div class="shape shape-bottom shape-fluid-x text-white">
+    {{> curves/curve-1}}
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section>
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-12 col-md-6 col-lg-5 order-md-2">
+
+        <!-- Image grid -->
+        <div class="d-flex flex-column w-md-130 mb-6 mb-md-0">
+
+          <!-- Image -->
+          <img class="img-fluid rounded shadow align-self-start" data-jarallax-element="-20" src="assets/img/screenshots/ui/analytics-2.png" alt="..." style="min-height: 1px; max-width: 50%; margin-left: 40%;">
+
+          <!-- Image -->
+          <img class="img-fluid rounded shadow align-self-start" data-jarallax-element="-50" src="assets/img/screenshots/ui/analytics-1.png" alt="..." style="min-height: 1px; max-width: 50%; margin-top: -35%;">
+
+          <!-- Image -->
+          <img class=" img-fluid rounded shadow align-self-center" data-jarallax-element="-80" src="assets/img/screenshots/ui/analytics-3.png" alt="..." style="min-height: 1px; max-width: 50%; margin-top: -20%;">
+
+        </div>
+
+      </div>
+      <div class="col-12 col-md-6 order-md-1 pt-md-12">
+
+        <!-- Heading -->
+        <h1>
+          Powerful metrics to better understand your business.
+        </h1>
+
+        <!-- Text -->
+        <p class="fs-lg text-gray-700 mb-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula auctor ornare. Nulla non ullamcorper tellus. Vestibulum pulvinar eros nec tortor maximus, iaculis rutrum nibh mollis.
+        </p>
+
+        <!-- List -->
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <div class="col-12 col-lg-6">
 
-            <!-- Heading -->
-            <h4 class="fw-bold text-white mb-5">
-              Integrations
-            </h4>
-
-            <!-- List -->
+            <!-- Item -->
             <div class="d-flex">
 
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
                 <i class="fe fe-check"></i>
               </div>
 
               <!-- Text -->
-              <p class="text-gray-300">
-                Basic CRUD API
+              <p class="text-success">
+                Real-time data
               </p>
 
             </div>
+
+            <!-- Item -->
             <div class="d-flex">
 
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
                 <i class="fe fe-check"></i>
               </div>
 
-              <!-- Text -->
-              <p class="text-gray-300">
-                3rd party snippets
+              <p class="text-success mb-lg-0">
+                FDIC Insured
               </p>
 
             </div>
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300">
-                Slack notifications
-              </p>
-
-            </div>
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300 mb-6 mb-lg-0">
-                Zapier hooks
-              </p>
-
-            </div> <!-- / .row -->
 
           </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-4">
+          <div class="col-12 col-lg-6">
 
-            <!-- Heading -->
-            <h4 class="fw-bold text-white mb-5">
-              Storage
-            </h4>
-
-            <!-- List -->
+            <!-- Item -->
             <div class="d-flex">
 
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
+              <!-- Check -->
+              <span class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
 
               <!-- Text -->
-              <p class="text-gray-300">
-                SQL and SQLite
+              <p class="text-success">
+                End-to-end encyption
               </p>
 
             </div>
+
+            <!-- Item -->
             <div class="d-flex">
 
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-success-soft me-1 me-4">
                 <i class="fe fe-check"></i>
               </div>
 
               <!-- Text -->
-              <p class="text-gray-300">
-                File system access
+              <p class="text-success mb-0">
+                REST API enabled
               </p>
 
             </div>
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300">
-                Infinite storage
-              </p>
-
-            </div>
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300 mb-6 mb-lg-0">
-                Mongo and NoSQL
-              </p>
-
-            </div> <!-- / .row -->
-
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-4">
-
-            <!-- Heading -->
-            <h4 class="fw-bold text-white mb-5">
-              Integrations
-            </h4>
-
-            <!-- List -->
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300">
-                Basic CRUD API
-              </p>
-
-            </div>
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300">
-                3rd party snippets
-              </p>
-
-            </div>
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300">
-                Slack notifications
-              </p>
-
-            </div>
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300 mb-6 mb-lg-0">
-                Zapier hooks
-              </p>
-
-            </div> <!-- / .row -->
-
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mb-4">
-
-            <!-- Heading -->
-            <h4 class="fw-bold text-white mb-5">
-              Storage
-            </h4>
-
-            <!-- List -->
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300">
-                SQL and SQLite
-              </p>
-
-            </div>
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300">
-                File system access
-              </p>
-
-            </div>
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300">
-                Infinite storage
-              </p>
-
-            </div>
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-rounded-circle bg-success mt-1 me-4">
-                <i class="fe fe-check"></i>
-              </div>
-
-              <!-- Text -->
-              <p class="text-gray-300 mb-0">
-                Mongo and NoSQL
-              </p>
-
-            </div> <!-- / .row -->
 
           </div>
         </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+
+<!-- ABOUT -->
+<section class="py-8 py-md-11">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-12 col-md-6 img-skewed img-skewed-end">
+
+        <!-- Code -->
+        <div class="card rounded-lg bg-black mb-6 mb-md-0 img-skewed-item screenshot">
+          <div class="card-header border-white-10">
+
+            <!-- Controls -->
+            <div class="d-flex">
+              <span class="bg-danger rounded-circle" style="width: 10px; height: 10px;"></span>
+              <span class="bg-warning rounded-circle ms-1" style="width: 10px; height: 10px;"></span>
+              <span class="bg-success rounded-circle ms-1" style="width: 10px; height: 10px;"></span>
+            </div>
+
+          </div>
+          <div class="card-body">
+
+            <!-- Code -->
+            <code class="highlight" data-typed='{"backSpeed":2, "strings": ["&gt;&nbsp;$&nbsp;npm&nbsp;install<br/><span class=\"text-success\">Everything&nbsp;is&nbsp;installed</span><br/><br/>&gt;&nbsp;$&nbsp;npm start<br/><span class=\"text-success\">scss&nbsp;watching</span><br/><span class=\"text-success\">LiveReload&nbsp;started</span><br/><span class=\"text-success\">Opening&nbsp;localhost:8080</span><br/><br/>&gt;&nbsp;$&nbsp;that&#x2019;s&nbsp;it<br/><span class=\"text-success\">Yup,&nbsp;that&#x2019;s&nbsp;it.</span>"]}' style="min-height: 183px;"></code>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12 col-md-5">
+
+        <!-- Heading -->
+        <h2>
+          Universal access to your data is one of our core values.
+        </h2>
+
+        <!-- Text -->
+        <p class="fs-lg text-gray-700">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula auctor ornare. Nulla non ullamcorper tellus.
+        </p>
+
+        <!-- Link -->
+        <a class="fw-bold text-decoration-none" href="#!">
+          View our API <i class="fe fe-arrow-right ms-3"></i>
+        </a>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+
+<!-- DOWNLOAD -->
+<section class="border-top">
+  <div class="container">
+    <div class="row justify-content-between align-items-stretch">
+      <div class="col-12 col-md-6 py-8 py-md-13">
+
+        <!-- Heading -->
+        <h2>
+          Corporate cards available on iOS and Android.
+        </h2>
+
+        <!-- Text -->
+        <p class="fs-lg text-gray-700 mb-7">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula auctor ornare. Nulla non ullamcorper tellus. Vestibulum pulvinar eros nec tortor maximus, iaculis rutrum nibh mollis.
+        </p>
 
 
 
+      </div>
+      <div class="col-12 col-md-5">
+
+        <!-- Image -->
+        <div class="position-relative h-100 vw-50 bg-cover" style="background-image: url(assets/img/covers/cover-18.jpg);">
+
+          <!-- Shape -->
+          <div class="shape shape-start shape-fluid-y text-white">
+            {{> angles/angle-start}}
+          </div>
+
+        </div>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
 
 
+<!-- FOOTER -->
+{{> partials/footer classList="bg-black"}}
 
-    <!-- FOOTER -->
-    {{> partials/footer classList="bg-dark"}}
+<!-- JAVASCRIPT -->
+{{> partials/scripts}}
 
-    <!-- JAVASCRIPT -->
-    {{> partials/scripts}}
-
-  </body>
+</body>
 </html>
